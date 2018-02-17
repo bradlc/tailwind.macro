@@ -1,20 +1,27 @@
 {
   "name": "tailwind.macro",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
-  "keywords": ["tailwind", "tailwindcss", "css-in-js", "babel-plugin-macros"],
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bradlc/tailwind.macro.git"
   },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "css-in-js",
+    "babel-plugin",
+    "babel-plugin-macros"
+  ],
+  "files": ["index.js"],
   "author": "Brad Cornes <bradlc41@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bradlc/tailwind.macro/issues"
   },
-  "homepage": "https://github.com/bradlc/tailwind.macro#readme"
+  "homepage": "https://github.com/bradlc/tailwind.macro#readme",
+  "dependencies": {
+    "babel-plugin-tailwind-components": "0.2.0"
+  }
 }
