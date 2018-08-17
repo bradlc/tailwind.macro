@@ -1,6 +1,6 @@
 {
   "name": "tailwind.macro",
-  "version": "0.5.1",
+  "version": "0.5.3",
   "description": "Use Tailwind with any CSS-in-JS library",
   "main": "index.js",
   "repository": {
@@ -14,7 +14,9 @@
     "babel-plugin",
     "babel-plugin-macros"
   ],
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "author": "Brad Cornes <bradlc41@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -22,6 +24,6 @@
   },
   "homepage": "https://github.com/bradlc/tailwind.macro#readme",
   "dependencies": {
-    "babel-plugin-tailwind-components": "0.5.0"
+    "babel-plugin-tailwind-components": "0.5.3"
   }
 }
