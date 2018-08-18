@@ -1,6 +1,6 @@
 {
   "name": "tailwind.macro",
-  "version": "0.5.3",
+  "version": "0.5.3-codesandbox",
   "description": "Use Tailwind with any CSS-in-JS library",
   "main": "index.js",
   "repository": {
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/bradlc/tailwind.macro#readme",
   "dependencies": {
-    "babel-plugin-tailwind-components": "0.5.3"
+    "babel-plugin-tailwind-components": "0.5.3-codesandbox"
   }
 }
